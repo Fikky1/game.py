@@ -1,11 +1,5 @@
 
-import random
 
-R= "rock"
-P = "Paper" 
-S = "Scissors"
-alist = ["rock" ,"Paper","Scissors"]
-print(R,P,S)
 user_action = input ("Enter a choice(R, P, S): ")
 possible_actions = ["rock" ,"paper","scissors",]
 computer_action = random.choice(possible_actions)
@@ -27,7 +21,13 @@ elif user_action == "Scissors":
      print("Scissors cuts paper! you win")
    else:
      print("rock smashes scissors! you lose.")
-     
+     import random
+
+R= "rock"
+P = "Paper" 
+S = "Scissors"
+alist = ["rock" ,"Paper","Scissors"]
+print(R,P,S)
 
      
 
